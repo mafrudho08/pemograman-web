@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(56, 209, 201);
+}
+
+header {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+.hewan-kurban {
+    margin-bottom: 40px;
+}
+
+.hewan-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hewan-item {
+    border-radius: 50%;
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 0 px 8px rgb(red, green, blue);
+    transition: transfrom 0,3s, box-shadow 0.3s;
+}
+
+.hewan-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(212, 193, 193);
+}
+
+.kerbau {
+    background-color: slategray;
+}
+
+.sapi {
+    background-color: peru;
+}
+
+.domba {
+    background-color: rgb(177, 126, 63);
+}
+
+.informasi {
+    background-color: rgb(165, 88, 88);
+    padding: 40px;
+    border-radius: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(116, 40, 62);
+    color: rgb(241, 228, 231);
+}
